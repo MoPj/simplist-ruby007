@@ -1,0 +1,837 @@
+
+
+Started GET "/" for ::1 at 2015-04-01 09:19:40 -0400
+Processing by SessionsController#welcome as HTML
+  Rendered sessions/welcome.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1240ms (Views: 1231.5ms)
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 09:19:41 -0400
+
+
+Started GET "/assets/superhero-8e331cb53a6b1c5fab599ec48aea56a4.css?body=1" for ::1 at 2015-04-01 09:19:41 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 09:19:41 -0400
+
+
+Started GET "/assets/application-1b2a8932c79cd7e7497945743c97b63c.css?body=1" for ::1 at 2015-04-01 09:19:41 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 09:19:41 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 09:19:41 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-01 09:19:41 -0400
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-04-01 09:19:41 -0400
+
+
+Started GET "/auth/twitter?utf8=%E2%9C%93&commit=Sign+in+with+Twitter" for ::1 at 2015-04-01 09:19:43 -0400
+
+
+Started GET "/auth/twitter/callback?utf8=%E2%9C%93&commit=Sign+in+with+Twitter&oauth_token=0BDAtQzgCEWOsbeT0KpBK8hjg02DAEv3&oauth_verifier=Rz8hED7FxknufO4pO6EPBmQNYlyeJcRm" for ::1 at 2015-04-01 09:19:45 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Sign in with Twitter", "oauth_token"=>"0BDAtQzgCEWOsbeT0KpBK8hjg02DAEv3", "oauth_verifier"=>"Rz8hED7FxknufO4pO6EPBmQNYlyeJcRm"}
+Redirected to http://localhost:3000/show
+Completed 302 Found in 1ms
+
+
+Started GET "/show" for ::1 at 2015-04-01 09:19:46 -0400
+Processing by SessionsController#show as HTML
+  Rendered sessions/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4030ms (Views: 48.3ms)
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 09:19:50 -0400
+
+
+Started GET "/assets/superhero-8e331cb53a6b1c5fab599ec48aea56a4.css?body=1" for ::1 at 2015-04-01 09:19:50 -0400
+
+
+Started GET "/assets/application-1b2a8932c79cd7e7497945743c97b63c.css?body=1" for ::1 at 2015-04-01 09:19:50 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 09:19:50 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 09:19:50 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 09:19:50 -0400
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-04-01 09:19:50 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-01 09:19:50 -0400
+
+
+Started GET "/" for ::1 at 2015-04-01 14:35:55 -0400
+Processing by SessionsController#welcome as HTML
+  Rendered sessions/welcome.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 124ms (Views: 121.6ms)
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 14:35:55 -0400
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-04-01 14:35:55 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 14:35:55 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 14:35:55 -0400
+
+
+Started GET "/assets/superhero-8e331cb53a6b1c5fab599ec48aea56a4.css?body=1" for ::1 at 2015-04-01 14:35:55 -0400
+
+
+Started GET "/assets/application-1b2a8932c79cd7e7497945743c97b63c.css?body=1" for ::1 at 2015-04-01 14:35:55 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-01 14:35:56 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 14:35:56 -0400
+
+
+Started GET "/" for ::1 at 2015-04-01 15:50:57 -0400
+Processing by SessionsController#welcome as HTML
+  Rendered sessions/welcome.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 200ms (Views: 174.7ms)
+
+
+Started GET "/assets/application-1b2a8932c79cd7e7497945743c97b63c.css?body=1" for ::1 at 2015-04-01 15:50:57 -0400
+
+
+Started GET "/assets/superhero-8e331cb53a6b1c5fab599ec48aea56a4.css?body=1" for ::1 at 2015-04-01 15:50:57 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 15:50:57 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 15:50:57 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-01 15:50:57 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 15:50:57 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 15:50:57 -0400
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-04-01 15:50:57 -0400
+
+
+Started GET "/auth/twitter?utf8=%E2%9C%93&commit=Sign+in+with+Twitter" for ::1 at 2015-04-01 15:50:59 -0400
+
+
+Started GET "/auth/twitter/callback?utf8=%E2%9C%93&commit=Sign+in+with+Twitter&oauth_token=roC1g9s7BsEnZbcyZc0q2GrdZ9BBdX6n&oauth_verifier=wNAh5RKrZmXpKd3we8c4pFxvkw1jlYcN" for ::1 at 2015-04-01 15:51:00 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Sign in with Twitter", "oauth_token"=>"roC1g9s7BsEnZbcyZc0q2GrdZ9BBdX6n", "oauth_verifier"=>"wNAh5RKrZmXpKd3we8c4pFxvkw1jlYcN"}
+Redirected to http://localhost:3000/show
+Completed 302 Found in 1ms
+
+
+Started GET "/show" for ::1 at 2015-04-01 15:51:01 -0400
+Processing by SessionsController#show as HTML
+  Rendered sessions/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3901ms (Views: 49.4ms)
+
+
+Started GET "/assets/superhero-8e331cb53a6b1c5fab599ec48aea56a4.css?body=1" for ::1 at 2015-04-01 15:51:05 -0400
+
+
+Started GET "/assets/application-1b2a8932c79cd7e7497945743c97b63c.css?body=1" for ::1 at 2015-04-01 15:51:05 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 15:51:05 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 15:51:05 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 15:51:05 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-01 15:51:05 -0400
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-04-01 15:51:05 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 15:51:05 -0400
+
+
+Started GET "/auth/spotify" for ::1 at 2015-04-01 15:51:15 -0400
+
+
+Started GET "/auth/spotify" for ::1 at 2015-04-01 15:51:16 -0400
+
+
+Started GET "/" for ::1 at 2015-04-02 12:23:56 -0400
+Processing by SessionsController#welcome as HTML
+  Rendered sessions/welcome.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 1242ms (Views: 1216.7ms)
+
+
+Started GET "/assets/superhero-c145de56f0472fedf98f0adc96706a5e.css?body=1" for ::1 at 2015-04-02 12:23:58 -0400
+
+
+Started GET "/assets/application-ea05ecbfc2e088667eb3f13ac5c1fef7.css?body=1" for ::1 at 2015-04-02 12:23:58 -0400
+
+
+Started GET "/assets/application-6c6c2851fe38d9a8714d50eddd59078d.js?body=1" for ::1 at 2015-04-02 12:23:58 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-02 12:23:58 -0400
+
+
+Started GET "/assets/bootstrap-194504e961feb6e4898c2c0efac6fbff.js?body=1" for ::1 at 2015-04-02 12:23:58 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-02 12:23:58 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-02 12:23:58 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-02 12:23:58 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-02 12:23:58 -0400
+
+
+Started GET "/assets/bg.jpg" for ::1 at 2015-04-02 12:23:59 -0400
+
+
+Started GET "/show/public?utf8=%E2%9C%93&commit=Get+the+whole+world%27s+tracks%21" for ::1 at 2015-04-02 12:24:03 -0400
+Processing by SessionsController#show as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Get the whole world's tracks!", "mode"=>"public"}
+Completed 500 Internal Server Error in 2902ms
+
+RestClient::BadRequest - 400 Bad Request:
+  rest-client (1.8.0) lib/restclient/abstract_response.rb:74:in `return!'
+  rest-client (1.8.0) lib/restclient/request.rb:495:in `process_result'
+  rest-client (1.8.0) lib/restclient/request.rb:421:in `block in transmit'
+  /Users/mpsj/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/net/http.rb:853:in `start'
+  rest-client (1.8.0) lib/restclient/request.rb:413:in `transmit'
+  rest-client (1.8.0) lib/restclient/request.rb:176:in `execute'
+  rest-client (1.8.0) lib/restclient/request.rb:41:in `execute'
+  rest-client (1.8.0) lib/restclient.rb:65:in `get'
+  rspotify (1.13.0) lib/rspotify/connection.rb:34:in `block (2 levels) in singleton class'
+  rspotify (1.13.0) lib/rspotify/base.rb:97:in `search'
+  rspotify (1.13.0) lib/rspotify/track.rb:49:in `search'
+  app/controllers/application_controller.rb:53:in `minimize_query'
+  app/controllers/application_controller.rb:63:in `match_with_spotify'
+  app/controllers/application_controller.rb:86:in `block in get_spotify_objects'
+  app/controllers/application_controller.rb:82:in `get_spotify_objects'
+  app/controllers/sessions_controller.rb:24:in `show'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:186:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:186:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/mpsj/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mpsj/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mpsj/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/9e5afedeeeed1ca0/variables" for ::1 at 2015-04-02 12:24:06 -0400
+
+
+Started GET "/show/public?utf8=%E2%9C%93&commit=Get+the+whole+world%27s+tracks%21" for ::1 at 2015-04-02 12:25:01 -0400
+Processing by SessionsController#show as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Get the whole world's tracks!", "mode"=>"public"}
+  Rendered sessions/show.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 3806ms (Views: 199.2ms)
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-02 12:25:05 -0400
+
+
+Started GET "/assets/music_icon-c37a5d134fe09617d17dee123a2a179f.png" for ::1 at 2015-04-02 12:25:05 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-02 12:25:05 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-02 12:25:05 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-02 12:25:05 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-02 12:25:05 -0400
+
+
+Started GET "/show/public?utf8=%E2%9C%93&commit=Get+the+whole+world%27s+tracks%21" for ::1 at 2015-04-02 12:25:18 -0400
+Processing by SessionsController#show as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Get the whole world's tracks!", "mode"=>"public"}
+  Rendered sessions/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 4578ms (Views: 63.8ms)
+
+
+Started GET "/show/public?utf8=%E2%9C%93&commit=Get+the+whole+world%27s+tracks%21" for ::1 at 2015-04-02 12:25:23 -0400
+Processing by SessionsController#show as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Get the whole world's tracks!", "mode"=>"public"}
+  Rendered sessions/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 3528ms (Views: 120.0ms)
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-02 12:25:26 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-02 12:25:26 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-02 12:25:26 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-02 12:25:26 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-02 12:25:26 -0400
+
+
+Started GET "/show/public?utf8=%E2%9C%93&commit=Get+the+whole+world%27s+tracks%21" for ::1 at 2015-04-02 12:26:49 -0400
+Processing by SessionsController#show as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Get the whole world's tracks!", "mode"=>"public"}
+  Rendered sessions/show.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 4177ms (Views: 89.2ms)
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-02 12:26:53 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-02 12:26:53 -0400
+
+
+Started GET "/assets/superhero-c145de56f0472fedf98f0adc96706a5e.css?body=1" for ::1 at 2015-04-02 12:26:53 -0400
+
+
+Started GET "/assets/application-ea05ecbfc2e088667eb3f13ac5c1fef7.css?body=1" for ::1 at 2015-04-02 12:26:53 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-02 12:26:53 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-02 12:26:53 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-02 12:26:53 -0400
+
+
+Started GET "/assets/application-6c6c2851fe38d9a8714d50eddd59078d.js?body=1" for ::1 at 2015-04-02 12:26:53 -0400
+
+
+Started GET "/assets/bootstrap-194504e961feb6e4898c2c0efac6fbff.js?body=1" for ::1 at 2015-04-02 12:26:53 -0400
+
+
+Started GET "/assets/music_icon-c37a5d134fe09617d17dee123a2a179f.png" for ::1 at 2015-04-02 12:26:53 -0400
+
+
+Started GET "/assets/bg.jpg" for ::1 at 2015-04-02 12:26:53 -0400
+
+
+Started GET "/show/public?utf8=%E2%9C%93&commit=Get+the+whole+world%27s+tracks%21" for ::1 at 2015-04-02 12:28:03 -0400
+Processing by SessionsController#show as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Get the whole world's tracks!", "mode"=>"public"}
+  Rendered sessions/show.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 5063ms (Views: 57.3ms)
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-02 12:28:08 -0400
+
+
+Started GET "/assets/application-ea05ecbfc2e088667eb3f13ac5c1fef7.css?body=1" for ::1 at 2015-04-02 12:28:08 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-02 12:28:08 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-02 12:28:08 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-02 12:28:08 -0400
+
+
+Started GET "/assets/superhero-c145de56f0472fedf98f0adc96706a5e.css?body=1" for ::1 at 2015-04-02 12:28:08 -0400
+
+
+Started GET "/assets/bootstrap-194504e961feb6e4898c2c0efac6fbff.js?body=1" for ::1 at 2015-04-02 12:28:08 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-02 12:28:08 -0400
+
+
+Started GET "/assets/application-6c6c2851fe38d9a8714d50eddd59078d.js?body=1" for ::1 at 2015-04-02 12:28:08 -0400
+
+
+Started GET "/assets/music_icon-c37a5d134fe09617d17dee123a2a179f.png" for ::1 at 2015-04-02 12:28:08 -0400
+
+
+Started GET "/assets/bg.jpg" for ::1 at 2015-04-02 12:28:08 -0400
+
+
+Started GET "/show/public?utf8=%E2%9C%93&commit=Get+the+whole+world%27s+tracks%21" for ::1 at 2015-04-02 12:30:42 -0400
+Processing by SessionsController#show as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Get the whole world's tracks!", "mode"=>"public"}
+  Rendered sessions/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 4594ms (Views: 55.2ms)
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-02 12:30:46 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-02 12:30:46 -0400
+
+
+Started GET "/assets/superhero-c145de56f0472fedf98f0adc96706a5e.css?body=1" for ::1 at 2015-04-02 12:30:46 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-02 12:30:46 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-02 12:30:46 -0400
+
+
+Started GET "/assets/application-ea05ecbfc2e088667eb3f13ac5c1fef7.css?body=1" for ::1 at 2015-04-02 12:30:46 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-02 12:30:46 -0400
+
+
+Started GET "/assets/application-6c6c2851fe38d9a8714d50eddd59078d.js?body=1" for ::1 at 2015-04-02 12:30:46 -0400
+
+
+Started GET "/assets/bootstrap-194504e961feb6e4898c2c0efac6fbff.js?body=1" for ::1 at 2015-04-02 12:30:46 -0400
+
+
+Started GET "/assets/music_icon-c37a5d134fe09617d17dee123a2a179f.png" for ::1 at 2015-04-02 12:30:46 -0400
+
+
+Started GET "/assets/bg.jpg" for ::1 at 2015-04-02 12:30:46 -0400
+
+
+Started GET "/show/public?utf8=%E2%9C%93&commit=Get+the+whole+world%27s+tracks%21" for ::1 at 2015-04-02 12:32:19 -0400
+Processing by SessionsController#show as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Get the whole world's tracks!", "mode"=>"public"}
+  Rendered sessions/show.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 8183ms (Views: 62.8ms)
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-02 12:32:28 -0400
+
+
+Started GET "/assets/superhero-c145de56f0472fedf98f0adc96706a5e.css?body=1" for ::1 at 2015-04-02 12:32:28 -0400
+
+
+Started GET "/assets/application-ea05ecbfc2e088667eb3f13ac5c1fef7.css?body=1" for ::1 at 2015-04-02 12:32:28 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-02 12:32:28 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-02 12:32:28 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-02 12:32:28 -0400
+
+
+Started GET "/assets/bootstrap-194504e961feb6e4898c2c0efac6fbff.js?body=1" for ::1 at 2015-04-02 12:32:28 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-02 12:32:28 -0400
+
+
+Started GET "/assets/application-6c6c2851fe38d9a8714d50eddd59078d.js?body=1" for ::1 at 2015-04-02 12:32:28 -0400
+
+
+Started GET "/assets/music_icon-c37a5d134fe09617d17dee123a2a179f.png" for ::1 at 2015-04-02 12:32:28 -0400
+
+
+Started GET "/assets/bg.jpg" for ::1 at 2015-04-02 12:32:28 -0400
+
+
+Started GET "/show/public?utf8=%E2%9C%93&commit=Get+the+whole+world%27s+tracks%21" for ::1 at 2015-04-02 12:33:35 -0400
+Processing by SessionsController#show as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Get the whole world's tracks!", "mode"=>"public"}
+  Rendered sessions/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 4514ms (Views: 85.0ms)
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-02 12:33:40 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-02 12:33:40 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-02 12:33:40 -0400
+
+
+Started GET "/assets/superhero-c145de56f0472fedf98f0adc96706a5e.css?body=1" for ::1 at 2015-04-02 12:33:40 -0400
+
+
+Started GET "/assets/application-ea05ecbfc2e088667eb3f13ac5c1fef7.css?body=1" for ::1 at 2015-04-02 12:33:40 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-02 12:33:40 -0400
+
+
+Started GET "/assets/bootstrap-194504e961feb6e4898c2c0efac6fbff.js?body=1" for ::1 at 2015-04-02 12:33:40 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-02 12:33:40 -0400
+
+
+Started GET "/assets/application-6c6c2851fe38d9a8714d50eddd59078d.js?body=1" for ::1 at 2015-04-02 12:33:40 -0400
+
+
+Started GET "/assets/music_icon-c37a5d134fe09617d17dee123a2a179f.png" for ::1 at 2015-04-02 12:33:40 -0400
+
+
+Started GET "/assets/bg.jpg" for ::1 at 2015-04-02 12:33:40 -0400
+
+
+Started GET "/show/public?utf8=%E2%9C%93&commit=Get+the+whole+world%27s+tracks%21" for ::1 at 2015-04-02 12:35:51 -0400
+Processing by SessionsController#show as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Get the whole world's tracks!", "mode"=>"public"}
+
+
+Started GET "/show/public?utf8=%E2%9C%93&commit=Get+the+whole+world%27s+tracks%21" for ::1 at 2015-04-02 12:42:39 -0400
+
+SyntaxError - syntax error, unexpected '<'
+              <% binding.pry %>
+               ^
+/Users/mpsj/Development/code/flatiron-twitter-now-playing/app/controllers/sessions_controller.rb:11: syntax error, unexpected '>':
+  app/controllers/sessions_controller.rb:11:in `'
+  activesupport (4.2.0) lib/active_support/dependencies.rb:457:in `block in load_file'
+  activesupport (4.2.0) lib/active_support/dependencies.rb:647:in `new_constants_in'
+  activesupport (4.2.0) lib/active_support/dependencies.rb:456:in `load_file'
+  activesupport (4.2.0) lib/active_support/dependencies.rb:354:in `require_or_load'
+  activesupport (4.2.0) lib/active_support/dependencies.rb:494:in `load_missing_constant'
+  activesupport (4.2.0) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.0) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.0) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:59:in `controller'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:38:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:186:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:186:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/mpsj/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mpsj/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mpsj/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/1cad5b50b0528aba/variables" for ::1 at 2015-04-02 12:42:39 -0400
+
+
+Started GET "/" for ::1 at 2015-04-02 12:42:56 -0400
+Processing by SessionsController#welcome as HTML
+  Rendered sessions/welcome.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 391ms (Views: 338.6ms)
+
+
+Started GET "/show/public?utf8=%E2%9C%93&commit=Get+the+whole+world%27s+tracks%21" for ::1 at 2015-04-02 12:42:57 -0400
+Processing by SessionsController#show as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Get the whole world's tracks!", "mode"=>"public"}
+  Rendered sessions/show.html.erb within layouts/application (38.4ms)
+Completed 200 OK in 3920ms (Views: 85.6ms)
+
+
+Started GET "/assets/superhero-c145de56f0472fedf98f0adc96706a5e.css?body=1" for ::1 at 2015-04-02 12:43:01 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-02 12:43:01 -0400
+
+
+Started GET "/assets/application-ea05ecbfc2e088667eb3f13ac5c1fef7.css?body=1" for ::1 at 2015-04-02 12:43:01 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-02 12:43:01 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-02 12:43:01 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-02 12:43:01 -0400
+
+
+Started GET "/assets/bootstrap-194504e961feb6e4898c2c0efac6fbff.js?body=1" for ::1 at 2015-04-02 12:43:01 -0400
+
+
+Started GET "/assets/application-6c6c2851fe38d9a8714d50eddd59078d.js?body=1" for ::1 at 2015-04-02 12:43:01 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-02 12:43:01 -0400
+
+
+Started GET "/assets/music_icon-c37a5d134fe09617d17dee123a2a179f.png" for ::1 at 2015-04-02 12:43:01 -0400
+
+
+Started GET "/assets/bg.jpg" for ::1 at 2015-04-02 12:43:01 -0400
+
+
+Started GET "/auth/spotify?utf8=%E2%9C%93&commit=Create+a+Spotify+playlist+with+these+tracks%21" for ::1 at 2015-04-02 12:43:11 -0400
+
+
+Started GET "/auth/spotify/callback?code=AQCfbnUWRqq_FVhyHtOn2BhAqnd4q_Y0d4y4To2m1gJZ6aPS20JAkzC7AeYyQSJPpa-E5SnGLhPkZ2JS_POwUePsF1LFbTmauCxCQ215lRrQRCrZzWh8J98xxYb9vU8IKQMv-ZYDPen3q9rYjPeC9E3Ime3MtDgA--v13WeCbnGmO91PEiyzn_4uHoIlUFzhaQ9hnNhTBhOFn-6q7k4-CRrTje0yPnWDK8D-nYMcdNDGw_XmRgSApL1jBHh_n6MZRW1sRIqx9bvqdoJ4zrDCc0iaoOR5OTUpEqbyjCwHrQPMSNNugUb5mtBTXBSMOU5EBzU&state=a59650494e23110331851460340c20e334bd3d5bedd9cdcc" for ::1 at 2015-04-02 12:43:17 -0400
+Processing by SessionsController#playlist as HTML
+  Parameters: {"code"=>"AQCfbnUWRqq_FVhyHtOn2BhAqnd4q_Y0d4y4To2m1gJZ6aPS20JAkzC7AeYyQSJPpa-E5SnGLhPkZ2JS_POwUePsF1LFbTmauCxCQ215lRrQRCrZzWh8J98xxYb9vU8IKQMv-ZYDPen3q9rYjPeC9E3Ime3MtDgA--v13WeCbnGmO91PEiyzn_4uHoIlUFzhaQ9hnNhTBhOFn-6q7k4-CRrTje0yPnWDK8D-nYMcdNDGw_XmRgSApL1jBHh_n6MZRW1sRIqx9bvqdoJ4zrDCc0iaoOR5OTUpEqbyjCwHrQPMSNNugUb5mtBTXBSMOU5EBzU", "state"=>"a59650494e23110331851460340c20e334bd3d5bedd9cdcc"}
+Redirected to http://open.spotify.com/user/12172445019/playlist/3iWTJp4xSqKxuDE2ge3Yq7
+Completed 302 Found in 1835ms
+
+
+Started GET "/" for ::1 at 2015-04-02 12:52:15 -0400
+Processing by SessionsController#welcome as HTML
+  Rendered sessions/welcome.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 299ms (Views: 282.0ms)
+
+
+Started GET "/assets/application-ea05ecbfc2e088667eb3f13ac5c1fef7.css?body=1" for ::1 at 2015-04-02 12:52:16 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-02 12:52:16 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-02 12:52:16 -0400
+
+
+Started GET "/assets/bootstrap-194504e961feb6e4898c2c0efac6fbff.js?body=1" for ::1 at 2015-04-02 12:52:16 -0400
+
+
+Started GET "/assets/superhero-c145de56f0472fedf98f0adc96706a5e.css?body=1" for ::1 at 2015-04-02 12:52:16 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-02 12:52:16 -0400
+
+
+Started GET "/assets/application-6c6c2851fe38d9a8714d50eddd59078d.js?body=1" for ::1 at 2015-04-02 12:52:16 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-02 12:52:16 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-02 12:52:16 -0400
+
+
+Started GET "/assets/bg.jpg" for ::1 at 2015-04-02 12:52:16 -0400
+
+
+Started GET "/show/public?utf8=%E2%9C%93&commit=Get+the+whole+world%27s+tracks%21" for ::1 at 2015-04-02 12:52:19 -0400
+Processing by SessionsController#show as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Get the whole world's tracks!", "mode"=>"public"}
+Completed 500 Internal Server Error in 4177ms
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/controllers/sessions_controller.rb:25:in `block in show'
+  app/controllers/sessions_controller.rb:25:in `show'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:186:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:186:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/mpsj/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mpsj/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mpsj/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/fb3b5db2068a64c1/variables" for ::1 at 2015-04-02 12:52:24 -0400
+
+
+Started POST "/__better_errors/fb3b5db2068a64c1/eval" for ::1 at 2015-04-02 12:53:39 -0400

@@ -1,0 +1,18 @@
+<div class="bigh1-small">
+  <% if params[:mode] == 'friends'  %>
+    <center><h1><%= "#{@user.name}, "%></h1>
+    <% if @tweets.nil? || @tweets.empty? %>
+      <h2>it's pretty quiet in here!</h2>
+      <p><h4>Unfortunately, none of your friends have shared any tracks recently.<br>
+      Why don't you check out the public page to see the rest of the world's jams?</h4></p>
+      <%= form_tag("/show/public", :method => :get) do %>
+        <%= submit_tag "Take me to the public page!", :class => "btn btn-success btn-lg" %>
+      <% end -%>
+    <% else %>
+      <h2>here's what your friends are listening to!</h2>
+      <%= render 'songtable' %>
+    <% end %>
+  <% elsif params[:mode] == 'public'  %>
+    <center><h2>Here's what the world is listening to!</h2>
+    <%= render 'songtable' %>
+  <% end -%>
